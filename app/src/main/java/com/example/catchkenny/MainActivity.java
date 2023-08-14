@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                         // restart yapacak
-                        // 1 tane  intent var ve restart attık.
+                        // 1 tane intent var ve restart attık.
                         Intent intent= getIntent();
                         finish();
                         startActivity(intent);
